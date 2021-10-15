@@ -5,4 +5,4 @@ import datetime
 def index():
     return f'<b>Hello {datetime.datetime.now()}</b>!'
 
-run(host='localhost', port=8080)
+run(host='0.0.0.0', port=8080)
